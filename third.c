@@ -1,9 +1,9 @@
 #include<stdio.h>
-
+#include<conio.h>
 int main() {
     int n, cap, w[10], p[10], i;
     float profit = 0;
-    clrscr();
+    // clrscr();
 
     printf("Items & Capacity: ");
     scanf("%d%d", &n, &cap);
@@ -27,6 +27,6 @@ int main() {
     }
 
     printf("Max Profit: %.2f", profit);
-    getch();
+    // getch();
     return 0;
 }
